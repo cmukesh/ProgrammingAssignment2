@@ -1,3 +1,4 @@
+##This function returns list which contains functions
 makeCacheMatrix <- function(x = matrix()) {
   
   m <- NULL
@@ -16,8 +17,9 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+##This function will retun the inverse of matrix 'x'
 
-cacheSolve <- function(x=matrix(), ...) {
+cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
   m <- x$getsolve()
   if(!is.null(m)) {
